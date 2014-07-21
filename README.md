@@ -1,5 +1,5 @@
-e-Pay Seamless Integration
-================================
+epay (MOLPay CASH) Seamless Integration
+=======================================
 
 
 Getting started
@@ -20,7 +20,7 @@ Example
 
 ```html
 <!-- Button trigger MOLPay seamless -->
-<button type="button" id="myPay" class="btn btn-primary btn-lg" data-toggle="molpayseamless" data-mpsmerchantid="molpaymerchant" data-mpschannel="cash-epay" data-mpsamount="1.20" data-mpsorderid="TEST1139669863" data-mpsbill_name="MOLPay Technical" >Pay via e-Pay</button>
+<button type="button" id="myPay" class="btn btn-primary btn-lg" data-toggle="molpayseamless" data-mpsmerchantid="molpaymerchant" data-mpschannel="cash-epay" data-mpsamount="1.20" data-mpsorderid="TEST1139669863" data-mpsbill_name="MOLPay Technical" >Pay via epay</button>
 ```
 
 Usage
@@ -33,7 +33,7 @@ The MOLPay seamless plugin process your button, via data attributes or JavaScrip
 Activate a MOLPay seamless without writing JavaScript. Set <code>data-toggle="molpayseamless"</code> on a controller element, like a button, along with a <code>data-mpsamount="1.01"</code> to set value.
 
 ```html
-<button type="button" data-toggle="molpayseamless">Pay via e-Pay</button> 
+<button type="button" data-toggle="molpayseamless">Pay via epay</button> 
 ```
 
 <h3>Via JavaScript</h3>
